@@ -11,7 +11,7 @@ const Footer = () => {
         <li><img src="public/icons/WhatsApp.svg" alt="" className='w-8'/></li>
      </ul>
      <div className='flex justify-center pt-3 text-white flex-wrap' >
-     © 2024 PassSaver. All rights reserved. | Privacy Policy | Terms of Service
+     © 2024 PassSaver. All rights reserved to Anupam Konwar.
      </div>
     </nav>
    </>
