@@ -17,11 +17,11 @@ const Manager = () => {
   }, []);
 
   const EyeHandler = () => {
-    if (Ref.current.src.includes("public/icons/eye.svg")) {
-      Ref.current.src = "public/icons/crosseye.svg";
+    if (Ref.current.src.includes("https://www.svgrepo.com/show/393103/eye.svg")) {
+      Ref.current.src = "https://www.svgrepo.com/show/488930/eye-closed.svg";
       setshow("password");
     } else {
-      Ref.current.src = "public/icons/eye.svg";
+      Ref.current.src = "https://www.svgrepo.com/show/393103/eye.svg";
       setshow("py-2 text");
     }
   };
@@ -152,7 +152,7 @@ theme="light"
                 className="w-[80%] outline-none"
               />
               <img
-                src="public/icons/eye.svg"
+                src="https://www.svgrepo.com/show/393103/eye.svg"
                 ref={Ref}
                 className="w-6 absolute right-5 cursor-pointer"
                 alt=""
