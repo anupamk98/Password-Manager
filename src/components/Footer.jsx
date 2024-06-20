@@ -5,7 +5,7 @@ const Footer = () => {
    <>
     <nav className='bg-slate-800 py-5 ' >
      <ul className='flex justify-center gap-10'>
-        <li><img src="public/icons/insta.svg" alt="" className='w-8' /></li>
+        <li><img src="../public/icons/insta.svg" alt="" className='w-8' /></li>
         <li><img src="public/icons/X.svg" alt="" className='w-10' /></li>
         <li><img src="public/icons/fb.svg" alt="" className='w-8' /></li>
         <li><img src="public/icons/WhatsApp.svg" alt="" className='w-8'/></li>
